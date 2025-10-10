@@ -28,3 +28,7 @@ CREATE TABLE Matriculas (
 	FOREIGN KEY (AlunoId) REFERENCES Alunos(id),
 	FOREIGN KEY (CursoId) REFERENCES Cursos(id)
 	);
+
+	
+USE Escola;
+GO
